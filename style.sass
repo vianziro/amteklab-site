@@ -19,24 +19,94 @@ body
 h1
   font-weight: 500
   font-size: 42px
+  line-height: normal
 
 h2
   font-weight: 500
   font-size: 38px
+  line-height: normal
 
 h3
   font-size: 28px
+  line-height: normal
 
 h4
   font-size: 22px
+  font-weight: 300
+  line-height: normal
 
 h5
   font-size: 18px
+  font-weight: 300
+  line-height: normal
 
 h6
   font-size: 16px
+  font-weight: 300
+  line-height: normal
 
 p
   font-size: 14px
+  font-weight: 300
+  line-height: normal
 
+/* Navbar */
 
+.navbar
+  line-height: 80px
+  height: 80px
+  background-color: transparent
+  margin-bottom: 0
+  .navbar-brand
+    line-height: 80px
+    height: 80px
+    img
+      width: 148px
+      line-height: 80px
+  .navbar-nav
+    height: 80px
+    li > a
+      line-height: 40px
+      font-size: 18px
+
+/* Hero */
+
+#hero-header
+  background: url("images/bg-hero.jpeg") no-repeat center center fixed
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  height: 700px
+  .overflow
+    background-color: rgba(0, 0, 0, 0.6)
+    height: 700px
+    .content-hero
+      margin-top: 180px
+      h1
+        margin-bottom: 30px
+        color: #f5f5f5
+      h5
+        margin-bottom: 30px
+        color: #ddd
+      .btn
+        background-color: transparent
+        color: #999
+        border: 2px solid #999
+        font-size: 18px
+        letter-spacing: 0.5px
+        padding: 15px 35px
+        -webkit-transition: all 0.3s ease-in-out
+        -moz-transition: all 0.3s ease-in-out
+        -o-transform: all 0.3s ease-in-out
+        transition: all 0.3s ease-in-out
+        &:hover,
+        &:focus,
+        &:active
+          background-color: #365EBA
+          border: 2px solid #365EBA
+          color: #fff
+          -webkit-transition: all 0.3s ease-in-out
+          -moz-transition: all 0.3s ease-in-out
+          -o-transform: all 0.3s ease-in-out
+          transition: all 0.3s ease-in-out
