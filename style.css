@@ -46,6 +46,17 @@ p {
   font-weight: 300;
   line-height: normal; }
 
+h1.title,
+h2.title,
+h3.title,
+h4.title,
+h5.title,
+h6.title {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  padding-bottom: 15px; }
+
 /* Navbar */
 .navbar {
   line-height: 80px;
@@ -102,5 +113,26 @@ p {
           -moz-transition: all 0.3s ease-in-out;
           -o-transform: all 0.3s ease-in-out;
           transition: all 0.3s ease-in-out; }
+
+/* Services */
+#services {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  #services .services-title {
+    margin-top: 60px; }
+    #services .services-title p {
+      font-size: 18px;
+      color: #909090; }
+  #services .services-content {
+    margin-top: 80px; }
+    #services .services-content .glyphicon {
+      font-size: 62px;
+      margin-bottom: 20px;
+      color: #ddd; }
+      #services .services-content .glyphicon:hover {
+        color: #365EBA; }
+    #services .services-content h4 {
+      color: #365EBA;
+      font-weight: 300; }
 
 /*# sourceMappingURL=style.css.map */
